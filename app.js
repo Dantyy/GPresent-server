@@ -113,9 +113,7 @@ app.get('/api/private/v1/kuaidi/:orderno', logistics.getLogisticsInfo)
 // log4js.use(app);
 
 /**
- *
  * 统一处理无响应
- *
  */
 // 如果没有路径处理就返回 Not Found
 app.use(function(req, res, next) {
